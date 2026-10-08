@@ -22,6 +22,6 @@ jobs:
         run: npm install --global surge
 
       - name: Desplegar en Surge
-        run: surge ./ parcial1-electiva2-tomas-colon.surge.sh
+        run: surge ./ electiva2-parcial1-20241706.surge.sh/
         env:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
